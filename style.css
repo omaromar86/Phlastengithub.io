@@ -1,0 +1,85 @@
+body{
+    background-image: url(aqsa-mosque-evening-with-beautiful-view-palestine_885092-60.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.link{
+    float: left;
+    padding: 5px;
+}
+.links{
+    float: right;
+    word-spacing: 20px;
+}a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+}
+nav{
+width: 90%;
+margin: auto;
+}
+header{
+    line-height: 8vh;
+    background-color: black;
+    height:80px;
+    padding: 15px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    padding: 20px;
+}
+.cards{
+    width: 500px;
+    float: left;
+
+}
+
+img{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+}
+@media (max-width:500px;){
+    .cards{
+        width:50%;
+    }
+}
+@media (max-width:800px;){
+    .imgg{
+        width: 100%;
+    }
+}
+.clear{
+    clear: both;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    line-height: 100px;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    background-color: #2093e5;
+    color: white;
+    padding: 21px;
+    width: 100%;
+    border-radius: 10px;
+    transition: all .5ms ease;
+}
